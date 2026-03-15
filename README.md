@@ -1,30 +1,33 @@
-# Java-DSA-Learning ☕
+# Hi, I'm Bhushan Dhangar 👋
 
-Me Bhushan, 12th Science (HSC Board) cha student aahe. Abhyasasobatach me maze coding skills develop kartoy. Ha maza dedicated space aahe jithe me Java fundamentals pasun DSA paryant cha pravas record kartoy.
+### Aspiring Software Developer | 12th Science Student | Logic Builder
 
-Sagle programs me **DroidEdit/Acode** vaprun mobile varach lihile aahet.
+I am a passionate 12th-grade student balancing my HSC board studies with a deep interest in **Java & Web Development**. I love building logic and solving problems, often coding directly from my mobile using professional environments.
+
+---
+
+### 🔭 What I'm Doing Right Now
+- ☕ **Java Mastery:** Deep-diving into Core Java & DSA.
+- 🌐 **Web Dev:** Learning to build clean, professional web projects.
+- 🎯 **Goal:** Developing a strong problem-solving mindset to crack a software job.
+- ⚡ **Fun Fact:** I deploy most of my early logic projects and GitHub commits directly from my mobile!
+
+### 🛠 Tech Stack
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
-### 🛠 Tech Stack & Tools
-* **Language:** Java
-* **Platform:** Android (Mobile Coding)
-* **Version Control:** Git & GitHub
-
-### 🚀 Roadmap & Progress
-- [x] **Java Basics:** Variables, Data Types, Scanner Input
-- [/] **Operators & Logic:** Pre/Post Increment, Ternary, Modulo
-- [ ] **Control Flow:** If-Else conditions & Switch Case (Current)
-- [ ] **Loops:** For, While (Multiplication Tables, Patterns)
-- [ ] **DSA:** Arrays, Strings, and beyond...
-
-### 📁 Code Samples
-* `Table.java` - User kadun number ghenun table print karne.
-* `VariableDemo.java` - Professional variable naming practice.
-* `CircleArea.java` - Input ghenun area calculate karne.
+### 📊 GitHub Stats
+![Bhushan's GitHub stats](https://github-readme-stats.vercel.app/api?username=dhangarbhushan026&show_icons=true&theme=tokyonight)
 
 ---
-### 💡 My Goal
-"Software Engineering madhe career karnyasaathi me aata pasunach logic building var focus kartoy. Daily commits mule mala maza progress track karta yeto."
 
-**Maintained by: [Bhushan Dhangar](https://github.com/dhangarbhushan026)**
+### 🤝 Connect with Me
+- **GitHub:** [dhangarbhushan026](https://github.com/dhangarbhushan026)
+- **Currently focused on building a strong logic foundation for my future in Engineering!**
+
+*"Building my future, one line of code at a time."*
