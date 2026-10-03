@@ -12,29 +12,16 @@ jobs:
   heatmap:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
-      - name: Install dependencies
-        run: |
-          pip install requests beautifulsoup4
-
-      - name: Ensure data directory exists
-        run: mkdir -p data
-
-      - name: Fetch contribution data
-        run: python scripts/fetch_contributions.py
-
-      - name: Render heatmap SVG
-        run: python scripts/render_heatmap_svg.py
-
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - run: pip install requests beautifulsoup4
+      - run: |
+          mkdir -p data
+          python scripts/fetch_contributions.py
+          python scripts/render_heatmap_svg.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: refresh contribution graph"
-          file_pattern: "data/* contrib-heatmap.svg"
+          commit_message: "chore: refresh contribution graph [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg"
