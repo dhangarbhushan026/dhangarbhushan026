@@ -20,7 +20,8 @@ for i, day in enumerate(days[-371:]):
     )
 
 svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 125" width="820" height="125">
-<rect width="100%" height="100%" fill="#0d1117" rx="6" />{''.join(rects)}
+<rect width="100%" height="100%" fill="#0d1117" rx="6" />
+{''.join(rects)}
 </svg>'''
 
 with open("contrib-heatmap.svg", "w") as f:
