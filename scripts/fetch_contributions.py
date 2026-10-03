@@ -3,7 +3,6 @@ import requests
 from bs4 import BeautifulSoup
 
 USERNAME = "dhangarbhushan026"
-
 url = f"https://github.com/users/{USERNAME}/contributions"
 resp = requests.get(url)
 soup = BeautifulSoup(resp.text, "html.parser")
